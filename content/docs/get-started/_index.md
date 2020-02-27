@@ -20,6 +20,24 @@ aliases:
     </p>
 </div>
 
+<div>
+    <pulumi-chooser type="language" options="typescript,python,go,csharp"></pulumi-chooser>
+    <pulumi-choosable type="language" value="typescript">
+        {{% md %}}
+```typescript
+import * as something from "something"
+```
+        {{% /md %}}
+    </pulumi-choosable>
+    <pulumi-choosable type="language" value="python">
+        {{% md %}}
+```python
+I don't know any python.
+```
+        {{% /md %}}
+    </pulumi-choosable>
+</div>
+
 ## Choose Your Cloud
 
 <div class="flex flex-col max-w-full md:max-w-lg">
